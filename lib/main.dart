@@ -14,7 +14,7 @@ class MainApp extends StatelessWidget {
     return ChangeNotifierProvider(
       create: (context) => MainAppState(),
       child: MaterialApp(
-        title: 'Kedelig Klikker',
+        title: 'Word Maker',
         theme: ThemeData(
           useMaterial3: true,
           brightness: Brightness.light,
